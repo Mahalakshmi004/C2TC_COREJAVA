@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class PersonDemo {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		Scanner ob = new Scanner(System.in); 
 		   
 		  String name; 

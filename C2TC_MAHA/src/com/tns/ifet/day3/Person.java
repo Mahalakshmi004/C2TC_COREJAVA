@@ -2,8 +2,8 @@ package com.tns.ifet.day3;
 
 public class Person {
 
-	private String name; 
-	private int income; 
+	private int income;
+	private String name;
 	private String gender; 
 	private int age; 
 	private int tax; 
@@ -38,11 +38,9 @@ public class Person {
 	public void setAge(int age) { 
 	this.age = age; 
 	} 
-	//Object class method to return string 
+	//Object class method to return string representation of Person object 
 	@Override 
 	public String toString() { 
 	return "Person [name=" + name + ", income=" + income + ", gender=" + gender + ", age=" + age + ", tax="+tax+"]"; 
 	}
-
-
 }
